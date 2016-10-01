@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'ubuntu_b';
+  src: url('../fonts/Ubuntu-B.ttf');
+}
+@font-face {
+  font-family: 'ubuntu_l';
+  src: url('../fonts/Ubuntu-L.ttf');
+}
+@font-face {
+  font-family: 'ubuntu_r';
+  src: url('../fonts/Ubuntu-R.ttf');
+}
+body {
+  background-color: #efefef;
+  font-family: 'ubuntu_b', Arial, sans-serif;
+}
+.wrapper_header {
+  background-color: #fff;
+  color: #ff340e;
+}
 .goblin {
   margin: 10px;
 }
